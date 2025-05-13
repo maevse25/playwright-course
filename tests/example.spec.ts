@@ -18,11 +18,5 @@ test("get started link", async ({ page }) => {
     page.getByRole("heading", { name: "Installation" })
   ).toBeVisible();
 
-  // визначити підхід пошуку елементів які ви будете використовувати
-  page.locator("").click();
-  // xpath
-  // css
 
-  //
-  page.getByTestId("").click();
-});
+  });
