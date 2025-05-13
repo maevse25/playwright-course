@@ -38,7 +38,7 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'], headless: false },
     },
-
+  /* Uncomment below to run in Fireefox and Webkit
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
@@ -48,7 +48,7 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
-    
+    */ 
     /* Test against desktop browsers. */
 
     /* Test against mobile viewports. */
