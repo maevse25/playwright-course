@@ -1,2 +1,1 @@
-My pet project for learning test automation
-stack: Playwright + Typescript
+My pet project for learning test automation. Stack: Playwright + Typescript
